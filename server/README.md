@@ -3,6 +3,7 @@ This is a public repository with contents of Flask Web Development, here you wil
 <br />
 <h1>Steps to run this app</h1>
 <br />
+
 Cloning repo
 -----------------------------------
 
