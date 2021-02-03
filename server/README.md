@@ -5,8 +5,21 @@ This is a public repository with contents of Flask Web Development, here you wil
 
 Cloning repo
 -----------------------------------
-<br />
+
 .. code-block:: text
 
     $ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
 
+Enter in folder
+-----------------------------------
+
+.. code-block:: text
+
+    $ cd server
+    
+Install the requirements
+-----------------------------------
+
+.. code-block:: text
+
+    $ pip3 install -R requirements.txt
