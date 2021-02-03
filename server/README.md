@@ -10,16 +10,3 @@ Cloning repo
 
     $ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
 
-Enter in folder
------------------------------------
-<br />
-.. code-block:: text
-
-    $ cd server
-    
-Install the requirements
------------------------------------
-<br />
-.. code-block:: text
-
-    $ pip3 install -R requirements.txt
