@@ -1,0 +1,5 @@
+{
+    "python.autoComplete.extraPaths": ["./server"],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--ignore=E303"],
+}
