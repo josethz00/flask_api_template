@@ -22,5 +22,12 @@ Install the requirements
 -----------------------------------
 
 ```
-$ pip3 install -R requirements.txt
+$ pip3 install -r requirements.txt
+```
+
+Run celery worker (if your application needs)
+-----------------------------------
+
+```
+$ pip3 install -r requirements.txt
 ```
