@@ -8,18 +8,18 @@ Cloning repo
 
 .. code-block:: text
 
-   $ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
+    $ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
 
 Enter in folder
 -----------------------------------
 
 .. code-block:: text
 
-   $ cd server
+    $ cd server
     
 Install the requirements
 -----------------------------------
 
 .. code-block:: text
 
-   $ pip3 install -R requirements.txt
+    $ pip3 install -R requirements.txt
