@@ -7,7 +7,7 @@ This is a public repository with contents of Flask Web Development, here you wil
 Cloning repo
 -----------------------------------
 
-```python
+```
 $ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
 ```
 
