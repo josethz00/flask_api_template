@@ -25,16 +25,16 @@ $ cd server
 $ pip3 install -r requirements.txt
 ```
 
-4- Start celery worker (if your application needs)
------------------------------------
-
-```
-$ celery -A tasks app.celery --loglevel=INFO
-```
-
-5 - Start Flask server
+4 - Start Flask server
 -----------------------------------
 
 ```
 $ python3 app.py
+```
+
+5- Start celery worker (if your application needs)
+-----------------------------------
+
+```
+$ celery -A tasks app.celery --loglevel=INFO
 ```
