@@ -25,14 +25,20 @@ $ cd server
 $ pip3 install -r requirements.txt
 ```
 
-4 - Start Flask server
+4- Start Flask server
 -----------------------------------
 
 ```
 $ python3 app.py
 ```
 
-5- Start celery worker (if your application needs)
+5- Start redis-server (if is not active)
+-----------------------------------
+```
+$ redis-server --daemonize yes
+```
+
+6- Start celery worker (if your application needs)
 -----------------------------------
 
 ```
