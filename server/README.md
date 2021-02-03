@@ -29,7 +29,7 @@ $ pip3 install -r requirements.txt
 -----------------------------------
 
 ```
-$ celery worker -A app.celery --loglevel=info
+$ celery -A tasks app.celery --loglevel=INFO
 ```
 
 5 - Start Flask server
