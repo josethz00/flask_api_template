@@ -4,30 +4,37 @@ This is a public repository with contents of Flask Web Development, here you wil
 <h1>Steps to run this app</h1>
 <br />
 
-Cloning repo
+1- Cloning repo
 -----------------------------------
 
 ```
 $ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
 ```
 
-Enter in folder
+2- Enter in folder
 -----------------------------------
 
 ```
 $ cd server
 ```
 
-Install the requirements
+3- Install the requirements
 -----------------------------------
 
 ```
 $ pip3 install -r requirements.txt
 ```
 
-Run celery worker (if your application needs)
+4- Start celery worker (if your application needs)
 -----------------------------------
 
 ```
-$ pip3 install -r requirements.txt
+$ celery worker -A app.celery --loglevel=info
+```
+
+5 - Start Flask server
+-----------------------------------
+
+```
+$ python3 app.py
 ```
