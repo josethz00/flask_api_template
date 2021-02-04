@@ -47,6 +47,6 @@ $ celery -A tasks app.celery --loglevel=INFO
 <br />
 <center>
   
-<img src='https://media.giphy.com/media/3otPoS81loriI9sO8o/giphy.gif' />
+<img align=center src='https://media.giphy.com/media/3otPoS81loriI9sO8o/giphy.gif' />
 
 </center>
