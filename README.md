@@ -45,4 +45,4 @@ $ redis-server --daemonize yes
 $ celery -A tasks app.celery --loglevel=INFO
 ```
 <br />
-![Alt Text](https://media.giphy.com/media/3otPoS81loriI9sO8o/source.mp4)
+![Alt Text](https://media.giphy.com/media/3otPoS81loriI9sO8o/source.gif)
