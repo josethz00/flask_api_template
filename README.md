@@ -8,7 +8,7 @@ This is a public repository with contents of Flask Web Development, here you wil
 -----------------------------------
 
 ```
-$ git clone https://github.com/josethz00/flask_api_template/edit/initial_template/
+$ git clone https://github.com/josethz00/flask_api_template
 ```
 
 2- Enter in folder
@@ -44,3 +44,13 @@ $ redis-server --daemonize yes
 ```
 $ celery -A tasks app.celery --loglevel=INFO
 ```
+<br />
+
+## Check the default env variables (available on ``` config/variables.py ```)
+
+| Env Variable  | Default Value |
+| ------------- | ------------- |
+| REDIS_URL  | 'redis://localhost:6379/0' |
+| HOST  | '0.0.0.0'  |
+| PORT  | '8080' |
+| DEBUG | 'True' |
