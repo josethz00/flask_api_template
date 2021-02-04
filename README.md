@@ -46,4 +46,4 @@ $ celery -A tasks app.celery --loglevel=INFO
 ```
 <br />
 
-![](https://media.giphy.com/media/3otPoS81loriI9sO8o/source.gif)
+![](https://media.giphy.com/media/3otPoS81loriI9sO8o/giphy.gif)
