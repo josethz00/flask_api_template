@@ -44,3 +44,11 @@ $ redis-server --daemonize yes
 ```
 $ celery -A tasks app.celery --loglevel=INFO
 ```
+<br />
+
+| Env Variable  | Default Value |
+| ------------- | ------------- |
+| REDIS_URL  | 'redis://localhost:6379/0' |
+| HOST  | '0.0.0.0'  |
+| PORT  | '8080' |
+| DEBUG | 'True' |
