@@ -46,6 +46,8 @@ $ celery -A tasks app.celery --loglevel=INFO
 ```
 <br />
 
+## Check the default env variables (available on ``` config/variables.py ```)
+
 | Env Variable  | Default Value |
 | ------------- | ------------- |
 | REDIS_URL  | 'redis://localhost:6379/0' |
