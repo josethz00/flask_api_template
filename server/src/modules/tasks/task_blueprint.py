@@ -1,8 +1,8 @@
 from flask import Blueprint
 
-task = Blueprint('task', __name__, url_prefix='/task')
+task_bp = Blueprint('task', __name__, url_prefix='/task')
 
 
-task.route('/', methods=['GET'])
+task_bp.route('/', methods=['GET'])
 def index():
     return 'hello'
