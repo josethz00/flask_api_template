@@ -1,3 +1,3 @@
 class Task:
 
-    __tablename__ = 'task'
+    __tablename__ = 'tasks'

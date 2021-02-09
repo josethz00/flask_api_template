@@ -7,9 +7,15 @@ from src.shared.utils.handle_exception import handle_exception
 from src.modules.projects.project_blueprint import project_bp
 from src.modules.users.user_blueprint import user_bp
 from src.modules.tasks.task_blueprint import task_bp
+from src.shared.database.sql_connector import SQLConnector
 from config import variables
 
 app = Flask(__name__)
+
+db_conn = SQLConnector()
+app.config['SQLALCHEMY_DATABASE_URI'] = db_conn.connection_url
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 CORS(app)
 
 app.register_blueprint(user_bp)

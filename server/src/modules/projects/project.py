@@ -1,3 +1,3 @@
 class Project:
 
-    __tablename__ = 'project'
+    __tablename__ = 'projects'
