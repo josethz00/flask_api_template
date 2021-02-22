@@ -1,11 +1,12 @@
 from config import variables
 
+
 class SQLConnector:
 
-    connection_url = f'''
-        {variables.SQL_DATABASE}://
-        {variables.DATABASE_USER}:
-        {variables.DATABASE_PASSWORD}@
-        {variables.DATABASE_HOST}:
-        {variables.DATABASE_PORT}/
-        {variables.DATABASE_NAME}'''
+    def __init__(self):
+        self.connection_url = f'{variables.SQL_DATABASE}://'\
+            f'{variables.DATABASE_USER}:'\
+            f'{variables.DATABASE_PASSWORD}@'\
+            f'{variables.DATABASE_HOST}:'\
+            f'{variables.DATABASE_PORT}/'\
+            f'{variables.DATABASE_NAME}'
