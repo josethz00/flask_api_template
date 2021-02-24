@@ -29,28 +29,15 @@ $ pip3 install -r requirements.txt
 -----------------------------------
 
 ```
-$ python3 app.py
+$ python3 run.py
 ```
 
-5- Start redis-server (if is not active)
------------------------------------
-```
-$ redis-server --daemonize yes
-```
-
-6- Start celery worker (if your application needs)
------------------------------------
-
-```
-$ celery -A tasks app.celery --loglevel=INFO
-```
 <br />
 
-## Check the default env variables (available on ``` config/variables.py ```)
+## Check some default env variables (available on ``` config/variables.py ```)
 
 | Env Variable  | Default Value |
 | ------------- | ------------- |
-| REDIS_URL  | 'redis://localhost:6379/0' |
 | HOST  | '0.0.0.0'  |
 | PORT  | '8080' |
 | DEBUG | 'True' |
