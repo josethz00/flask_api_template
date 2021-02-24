@@ -8,7 +8,7 @@ from src.shared.middlewares.auth_middleware import auth_middleware
 project_bp = Blueprint('projects', __name__, url_prefix='/projects')
 
 
-@project_bp.route('/', methods=['GET'])
+@project_bp.route('', methods=['GET'])
 @auth_middleware
 def index() -> json:
     results = []
@@ -26,7 +26,7 @@ def index() -> json:
     return json.dumps(results), 200
 
 
-@project_bp.route('/', methods=['POST'])
+@project_bp.route('', methods=['POST'])
 @auth_middleware
 def store() -> json:
     title, description, user_id = request.json.values()
