@@ -1,7 +1,0 @@
-flask
-psycopg2-binary
-flask_sqlalchemy
-flask_cors
-gunicorn
-Flask-Mail
-PyJWT
