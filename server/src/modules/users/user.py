@@ -1,18 +1,9 @@
 from datetime import datetime
-from dataclasses import dataclass
 
 from src.shared.database.db import db
 
 
-@dataclass
 class User(db.Model):
-
-    id: int
-    username: str
-    email: str
-    password: str
-    created_at: datetime
-    updated_at: datetime
 
     __tablename__ = 'users'
 
