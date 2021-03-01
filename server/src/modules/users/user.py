@@ -1,9 +1,18 @@
 from datetime import datetime
+from dataclasses import dataclass
 
 from src.shared.database.db import db
 
 
+@dataclass
 class User(db.Model):
+
+    id: int
+    username: str
+    email: str
+    password: str
+    created_at: datetime
+    updated_at: datetime
 
     __tablename__ = 'users'
 
@@ -21,18 +30,6 @@ class User(db.Model):
         default=datetime.utcnow(),
         onupdate=datetime.utcnow(),
         nullable=False
-    )
-
-    tasks = db.relationship(
-        'Task',
-        backref='users',
-        cascade='all, delete-orphan',
-        uselist=True
-    )
-    projects = db.relationship(
-        'Project',
-        backref='users',
-        uselist=True
     )
 
     def __repr__(self):

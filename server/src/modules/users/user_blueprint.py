@@ -1,23 +1,23 @@
-from flask import Blueprint, request
+from flask import Blueprint, request, jsonify
 import json
 import hashlib
 from werkzeug.exceptions import Unauthorized
-from threading import Thread
 
 from .user import User
 from src.shared.database.db import db
 from src.shared.utils.jwt_handler import JWTHandler
 from src.shared.utils.mail_handler import send_email
 
+
 user_bp = Blueprint('users', __name__, url_prefix='/users')
 
 
 @user_bp.route('', methods=['GET'])
 def index() -> json:
-    result = []
-    users = db.session.query(User).all()
+    # result = []
+    users = User.query.all()
 
-    for user in users:
+    '''for user in users:
         result.append(
             {
                 'id': user.id,
@@ -26,7 +26,8 @@ def index() -> json:
             }
         )
 
-    return json.dumps(result), 200
+    return json.dumps(result), 200'''
+    return jsonify(users), 200
 
 
 @user_bp.route('', methods=['POST'])
