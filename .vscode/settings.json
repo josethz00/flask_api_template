@@ -3,6 +3,8 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--ignore=E303", 
-        "--ignore=E302"
+        "--ignore=E302",
+        "--ignore=F401"
     ],
+    "python.pythonPath": "server/.venv"
 }

@@ -1,4 +1,6 @@
-.env
+.venv
 env
 __pycache__
 dump.rdb
+.vscode
+variables.py
