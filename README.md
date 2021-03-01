@@ -22,7 +22,7 @@ $ cd server
 -----------------------------------
 
 ```
-$ pip3 install -r requirements.txt
+$ pip3 install -r requirements/requirements.txt
 ```
 
 4- Start Flask server
