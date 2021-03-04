@@ -27,8 +27,8 @@ def create_app() -> Flask:
     app.config['MAIL_PORT'] = variables.MAIL_PORT
     app.config['MAIL_USERNAME'] = variables.MAIL_USERNAME
     app.config['MAIL_PASSWORD'] = variables.MAIL_PASSWORD
-    app.config['MAIL_USE_TLS'] = bool(variables.MAIL_USE_TLS)
-    app.config['MAIL_USE_SSL'] = bool(variables.MAIL_USE_SSL)
+    app.config['MAIL_USE_TLS'] = variables.MAIL_USE_TLS
+    app.config['MAIL_USE_SSL'] = variables.MAIL_USE_SSL
 
     db.init_app(app)
     with app.app_context():
