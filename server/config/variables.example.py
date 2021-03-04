@@ -2,13 +2,13 @@ import os
 
 
 os.environ['HOST'] = '0.0.0.0'
-os.environ['PORT'] = '5000'
+os.environ['PORT'] = '8080'
 os.environ['SQL_DATABASE'] = 'your database'
 os.environ['DATABASE_USER'] = 'your user database'
 os.environ['DATABASE_PASSWORD'] = 'your database password'
 os.environ['DATABASE_NAME'] = 'your database name'
 os.environ['DATABASE_HOST'] = 'your local ipv4 or remote host'
-os.environ['DATABASE_PORT'] = 'the port thatthe database is running'
+os.environ['DATABASE_PORT'] = 'the port that the database is running'
 os.environ['FLASK_ENV'] = 'development | production | testing'
 os.environ['SECRET_KEY'] = 'your secret key'
 os.environ['MAIL_SERVER'] = 'mail server'
