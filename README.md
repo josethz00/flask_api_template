@@ -19,6 +19,8 @@ $ python
 $ python3
 ```
 
+<h4>If no errors were shown, it means that you already have Python installed</h4>
+
 2- Installing Python (skip this if you already have Python installed)
 -----------------------------------
 
@@ -27,8 +29,6 @@ $ python3
 <img src="https://i.ibb.co/jwRSGyv/linux.png" alt="linux" border="0"> - ``` $ sudo apt-get install python3.9. ```
 
 <img src="https://i.ibb.co/N1m6pmM/apple.png" alt="apple" border="0"> - ``` brew install pyhton3 ```
-
-<h4>If no errors were shown, it means that you already have Python installed</h4>
 
 3- Cloning repo
 -----------------------------------
