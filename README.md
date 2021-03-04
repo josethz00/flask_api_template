@@ -4,28 +4,54 @@ This is a public repository with contents of Flask Web Development, here you wil
 <h1>Steps to run this app 👇👇👇</h1>
 <br />
 
-1- Cloning repo
+1- Check if you have Python (3.2 or +) installed
+-----------------------------------
+
+<li>Type in your terminal (Windows):</li>
+
+```
+$ python
+```
+
+<li>Type in your terminal (Unix):</li>
+
+```
+$ python3
+```
+
+2- Installing Python (skip this if you already have Python installed)
+-----------------------------------
+
+<img src="https://i.ibb.co/LZKFrJR/windows.png" alt="windows" border="0"> - https://www.python.org/downloads/release/python-392/
+
+<img src="https://i.ibb.co/jwRSGyv/linux.png" alt="linux" border="0"> - ``` $ sudo apt-get install python3.9. ```
+
+<img src="https://i.ibb.co/N1m6pmM/apple.png" alt="apple" border="0"> - ``` brew install pyhton3 ```
+
+<h4>If no errors were shown, it means that you already have Python installed</h4>
+
+3- Cloning repo
 -----------------------------------
 
 ```
 $ git clone https://github.com/josethz00/flask_api_template
 ```
 
-2- Enter in folder
+4- Enter in folder
 -----------------------------------
 
 ```
 $ cd server
 ```
 
-3- Install the requirements
+5- Install the requirements
 -----------------------------------
 
 ```
 $ pip3 install -r requirements/requirements.txt
 ```
 
-4- Start Flask server
+6- Start Flask server
 -----------------------------------
 
 ```
