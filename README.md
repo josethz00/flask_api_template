@@ -26,9 +26,9 @@ $ python3
 
 <img src="https://i.ibb.co/LZKFrJR/windows.png" alt="windows" border="0"> - https://www.python.org/downloads/release/python-392/
 
-<img src="https://i.ibb.co/jwRSGyv/linux.png" alt="linux" border="0"> - ``` $ sudo apt-get install python3.9. ```
+<img src="https://i.ibb.co/jwRSGyv/linux.png" alt="linux" border="0"> - ``` $ sudo apt-get install python3.9 ```
 
-<img src="https://i.ibb.co/N1m6pmM/apple.png" alt="apple" border="0"> - ``` brew install pyhton3 ```
+<img src="https://i.ibb.co/N1m6pmM/apple.png" alt="apple" border="0"> - ``` brew install python3 ```
 
 3- Cloning repo
 -----------------------------------
