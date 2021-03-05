@@ -66,4 +66,4 @@ $ python3 run.py
 | ------------- | ------------- |
 | HOST  | '0.0.0.0'  |
 | PORT  | '8080' |
-| DEBUG | 'True' |
+| DEBUG | True |
